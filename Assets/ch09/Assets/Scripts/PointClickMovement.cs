@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 // 3rd-person movement that picks direction relative to target (usually the camera)
 // commented lines demonstrate snap to direction and without ground raycast
@@ -47,7 +48,7 @@ public class PointClickMovement : MonoBehaviour
         // start with zero and add movement components progressively
         Vector3 movement = Vector3.zero;
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit mouseHit;

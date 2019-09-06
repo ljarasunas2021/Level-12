@@ -72,14 +72,18 @@
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DeviceOperator.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DeviceTrigger.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DoorOpenDevice.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\GameEvent.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\InventoryPopup.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\IGameManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\InventoryManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\Managers.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\ManagerStatus.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\PlayerManager.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\Messenger.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\NetworkService.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\OrbitCamera.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\PointClickMovement.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\UIController.cs" />
     <None Include="Assets\ch09\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/lukas/version-control/mmo/level9-12/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
