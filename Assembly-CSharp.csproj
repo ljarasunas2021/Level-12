@@ -67,6 +67,7 @@
     <Compile Include="Assets\ch09\Assets\Scripts\Ai\WanderingAI.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\BasicUI.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\CollectibleItem.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\Devices\BaseDevice.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\ColorChangeDevice.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DeviceOperator.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DeviceTrigger.cs" />
@@ -78,7 +79,7 @@
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\PlayerManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\NetworkService.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\OrbitCamera.cs" />
-    <Compile Include="Assets\ch09\Assets\Scripts\RelativeMovement.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\PointClickMovement.cs" />
     <None Include="Assets\ch09\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/lukas/version-control/mmo/level9-12/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
