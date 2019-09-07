@@ -16,15 +16,14 @@ public class PlayerManager : MonoBehaviour, IGameManager
         Debug.Log("Player manager starting...");
 
         _network = service;
-
-        // these values could be initialized with saved data
-        health = 50;
-        maxHealth = 100;
-
-        // any long-running startup tasks go here, and set status to 'Initializing' until those tasks are complete
+        UpdateData(50, 100);
         status = ManagerStatus.Started;
     }
-
+    public void UpdateData(int health, int maxHealth)
+    {
+        this.health = health;
+        this.maxHealth = maxHealth;
+    }
     public void ChangeHealth(int value)
     {
         health += value;
@@ -36,6 +35,14 @@ public class PlayerManager : MonoBehaviour, IGameManager
         {
             health = 0;
         }
+        if (health == 0)
+        {
+            Messenger.Broadcast(GameEvent.LEVEL_FAILED);
+        }
         Messenger.Broadcast(GameEvent.HEALTH_UPDATED);
+    }
+    public void Respawn()
+    {
+        UpdateData(50, 100);
     }
 }
