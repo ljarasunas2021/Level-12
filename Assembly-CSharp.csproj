@@ -74,6 +74,7 @@
     <Compile Include="Assets\ch09\Assets\Scripts\Devices\DoorOpenDevice.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\GameEvent.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\InventoryPopup.cs" />
+    <Compile Include="Assets\ch09\Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\IGameManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\InventoryManager.cs" />
     <Compile Include="Assets\ch09\Assets\Scripts\Managers\Managers.cs" />
